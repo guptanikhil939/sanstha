@@ -1,0 +1,10 @@
+<div id="imagediv" style="width: 1300px; position: relative; padding-left: 80px;">
+			<ul class="hoverbox">
+			 #foreach( $path in $imagepaths )
+  
+			<li>
+			<a href="#"><img src="$path" alt="description" /><img src="$path" alt="description" class="preview" /></a>
+			</li>
+			#end	
+			</ul>
+			</div>
